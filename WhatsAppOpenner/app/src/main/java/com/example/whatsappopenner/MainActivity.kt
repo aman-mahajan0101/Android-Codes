@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.core.text.isDigitsOnly
 
@@ -27,11 +28,18 @@ class MainActivity : AppCompatActivity() {
     private fun startwhatsapp(num: String) {
         val intent = Intent(Intent.ACTION_VIEW)
         intent.setPackage("com.whatsapp")
-        val data :String =if(num[0]=='+'){
+        Log.d("TEST", num)
+        val data :String = if(num[0]=='+'){
+            Log.d("TEST1", num)
+
             num.substring(1)
         }else if(num.length==10){
+            Log.d("TEST2", num)
+
             "91"+num
         }else{
+            Log.d("TEST3", num)
+
             num
         }
         intent.data=Uri.parse("https://wa.me/$data")
