@@ -1,0 +1,2 @@
+rootProject.name = "ToDelete2"
+include ':app'
