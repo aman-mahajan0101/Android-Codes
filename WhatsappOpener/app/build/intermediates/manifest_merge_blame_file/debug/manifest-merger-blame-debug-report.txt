@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.whatsappopener"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml
+10
+11    <permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+11-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:4:5-72
+11-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:4:17-69
+12
+13    <queries>
+13-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:5:5-8:15
+14        <package android:name="com.whatsapp" />
+14-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:6:9-7:42
+14-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:7:13-40
+15    </queries>
+16
+17    <application
+17-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:10:5-31:19
+18        android:allowBackup="true"
+18-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /Users/aman/.gradle/caches/transforms-3/cec9fe7b6132d7b782fe169c802731ab/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:12:9-43
+23        android:label="@string/app_name"
+23-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:13:9-41
+24        android:roundIcon="@mipmap/ic_launcher"
+24-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:14:9-48
+25        android:supportsRtl="true"
+25-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:15:9-35
+26        android:theme="@style/Theme.WhatsappOpener" >
+26-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:16:9-52
+27        <activity
+27-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:17:9-30:20
+28            android:name="com.example.whatsappopener.MainActivity"
+28-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:18:13-41
+29            android:exported="true"
+29-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:19:13-36
+30            android:theme="@style/Theme.WhatsappOpener" >
+30-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:20:13-56
+31            <intent-filter>
+31-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:21:13-24:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:22:17-69
+32-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:23:17-77
+34-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:23:27-74
+35            </intent-filter>
+36            <intent-filter>
+36-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:25:13-29:29
+37                <action android:name="android.intent.action.PROCESS_TEXT" />
+37-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:26:17-76
+37-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:26:25-74
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:27:17-75
+39-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:27:27-73
+40
+41                <data android:mimeType="text/plain" />
+41-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:28:17-54
+41-->/Users/aman/AndroidStudioProjects/WhatsappOpener/app/src/main/AndroidManifest.xml:28:23-52
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

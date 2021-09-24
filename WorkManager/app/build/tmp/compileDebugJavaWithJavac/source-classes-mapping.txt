@@ -1,0 +1,2 @@
+com/example/workmanager/BuildConfig.java
+ com.example.workmanager.BuildConfig

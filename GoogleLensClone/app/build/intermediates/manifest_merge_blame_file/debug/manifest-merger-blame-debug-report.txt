@@ -1,0 +1,238 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.googlelensclone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:5:5-7:35
+12        android:name="android.hardware.camera.any"
+12-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:6:9-51
+13        android:required="true" />
+13-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:7:9-32
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:9:5-65
+15-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:10:5-81
+16-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:10:22-78
+17
+18    <queries>
+18-->[androidx.camera:camera-extensions:1.0.0-alpha28] /Users/aman/.gradle/caches/transforms-3/963d8528c70ec4ca74a98e15a2c259cf/transformed/jetified-camera-extensions-1.0.0-alpha28/AndroidManifest.xml:24:5-28:15
+19        <intent>
+19-->[androidx.camera:camera-extensions:1.0.0-alpha28] /Users/aman/.gradle/caches/transforms-3/963d8528c70ec4ca74a98e15a2c259cf/transformed/jetified-camera-extensions-1.0.0-alpha28/AndroidManifest.xml:25:9-27:18
+20            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+20-->[androidx.camera:camera-extensions:1.0.0-alpha28] /Users/aman/.gradle/caches/transforms-3/963d8528c70ec4ca74a98e15a2c259cf/transformed/jetified-camera-extensions-1.0.0-alpha28/AndroidManifest.xml:26:13-86
+20-->[androidx.camera:camera-extensions:1.0.0-alpha28] /Users/aman/.gradle/caches/transforms-3/963d8528c70ec4ca74a98e15a2c259cf/transformed/jetified-camera-extensions-1.0.0-alpha28/AndroidManifest.xml:26:21-83
+21        </intent>
+22    </queries> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+24-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+25    <uses-permission android:name="android.permission.INTERNET" />
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:22-64
+26
+27    <application
+27-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:12:5-39:19
+28        android:allowBackup="true"
+28-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:13:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.6.0] /Users/aman/.gradle/caches/transforms-3/a4bcf94456fc78faf25382220a59bd91/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:14:9-43
+33        android:label="@string/app_name"
+33-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:15:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:16:9-54
+35        android:supportsRtl="true"
+35-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:17:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.GoogleLensClone" >
+37-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:18:9-53
+38        <activity android:name="com.example.googlelensclone.TextDetection.TextRecognitionActivity" />
+38-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:19:9-74
+38-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:19:19-72
+39        <activity android:name="com.example.googlelensclone.ImageLabelAnalyzer.ImageLabelingActivity" />
+39-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:20:9-78
+39-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:20:19-75
+40        <activity
+40-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:21:9-23:39
+41            android:name="com.example.googlelensclone.FaceDetect.FaceDetectActivity"
+41-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:22:13-58
+42            android:exported="true" />
+42-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:23:13-36
+43        <activity
+43-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:24:9-26:39
+44            android:name="com.example.googlelensclone.Barcode.BarcodeActivity"
+44-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:25:13-52
+45            android:exported="true" />
+45-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:26:13-36
+46        <activity
+46-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:27:9-29:39
+47            android:name="com.example.googlelensclone.CameraActivity"
+47-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:28:13-43
+48            android:exported="true" />
+48-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:29:13-36
+49        <activity
+49-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:30:9-38:20
+50            android:name="com.example.googlelensclone.MainActivity"
+50-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:31:13-41
+51            android:exported="true" >
+51-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:32:13-36
+52            <intent-filter>
+52-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:33:13-37:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:34:17-69
+53-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:34:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:36:17-77
+55-->/Users/aman/AndroidStudioProjects/GoogleLensClone/app/src/main/AndroidManifest.xml:36:27-74
+56            </intent-filter>
+57        </activity>
+58
+59        <service
+59-->[com.google.mlkit:image-labeling:17.0.5] /Users/aman/.gradle/caches/transforms-3/2e257e501394c87f19005660c34c9544/transformed/jetified-image-labeling-17.0.5/AndroidManifest.xml:8:9-14:19
+60            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+60-->[com.google.mlkit:image-labeling:17.0.5] /Users/aman/.gradle/caches/transforms-3/2e257e501394c87f19005660c34c9544/transformed/jetified-image-labeling-17.0.5/AndroidManifest.xml:9:13-91
+61            android:directBootAware="true"
+61-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:17:13-43
+62            android:exported="false" >
+62-->[com.google.mlkit:image-labeling:17.0.5] /Users/aman/.gradle/caches/transforms-3/2e257e501394c87f19005660c34c9544/transformed/jetified-image-labeling-17.0.5/AndroidManifest.xml:10:13-37
+63            <meta-data
+63-->[com.google.mlkit:image-labeling:17.0.5] /Users/aman/.gradle/caches/transforms-3/2e257e501394c87f19005660c34c9544/transformed/jetified-image-labeling-17.0.5/AndroidManifest.xml:11:13-13:85
+64                android:name="com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar"
+64-->[com.google.mlkit:image-labeling:17.0.5] /Users/aman/.gradle/caches/transforms-3/2e257e501394c87f19005660c34c9544/transformed/jetified-image-labeling-17.0.5/AndroidManifest.xml:12:17-132
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.mlkit:image-labeling:17.0.5] /Users/aman/.gradle/caches/transforms-3/2e257e501394c87f19005660c34c9544/transformed/jetified-image-labeling-17.0.5/AndroidManifest.xml:13:17-82
+66            <meta-data
+66-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /Users/aman/.gradle/caches/transforms-3/108eb40bddbcd481d1a0c5776256d1f5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:12:13-14:85
+67                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+67-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /Users/aman/.gradle/caches/transforms-3/108eb40bddbcd481d1a0c5776256d1f5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:13:17-120
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] /Users/aman/.gradle/caches/transforms-3/108eb40bddbcd481d1a0c5776256d1f5/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.1/AndroidManifest.xml:14:17-82
+69            <meta-data
+69-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/aman/.gradle/caches/transforms-3/5634955359a5047385eeb320b8adedb0/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+70                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+70-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/aman/.gradle/caches/transforms-3/5634955359a5047385eeb320b8adedb0/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /Users/aman/.gradle/caches/transforms-3/5634955359a5047385eeb320b8adedb0/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+72            <meta-data
+72-->[com.google.mlkit:vision-internal-vkp:18.1.1] /Users/aman/.gradle/caches/transforms-3/131e212cc6c89ee19c709e211122fb37/transformed/jetified-vision-internal-vkp-18.1.1/AndroidManifest.xml:11:13-13:85
+73                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+73-->[com.google.mlkit:vision-internal-vkp:18.1.1] /Users/aman/.gradle/caches/transforms-3/131e212cc6c89ee19c709e211122fb37/transformed/jetified-vision-internal-vkp-18.1.1/AndroidManifest.xml:12:17-103
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.mlkit:vision-internal-vkp:18.1.1] /Users/aman/.gradle/caches/transforms-3/131e212cc6c89ee19c709e211122fb37/transformed/jetified-vision-internal-vkp-18.1.1/AndroidManifest.xml:13:17-82
+75            <meta-data
+75-->[com.google.android.gms:play-services-mlkit-text-recognition-common:16.0.0] /Users/aman/.gradle/caches/transforms-3/0891c24c7b14b0cdd2f6c2c54c5eb764/transformed/jetified-play-services-mlkit-text-recognition-common-16.0.0/AndroidManifest.xml:12:13-14:85
+76                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+76-->[com.google.android.gms:play-services-mlkit-text-recognition-common:16.0.0] /Users/aman/.gradle/caches/transforms-3/0891c24c7b14b0cdd2f6c2c54c5eb764/transformed/jetified-play-services-mlkit-text-recognition-common-16.0.0/AndroidManifest.xml:13:17-114
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.android.gms:play-services-mlkit-text-recognition-common:16.0.0] /Users/aman/.gradle/caches/transforms-3/0891c24c7b14b0cdd2f6c2c54c5eb764/transformed/jetified-play-services-mlkit-text-recognition-common-16.0.0/AndroidManifest.xml:14:17-82
+78            <meta-data
+78-->[com.google.mlkit:vision-common:16.5.0] /Users/aman/.gradle/caches/transforms-3/af716c88557fc1f6b9893bf6a34e922a/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+79                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+79-->[com.google.mlkit:vision-common:16.5.0] /Users/aman/.gradle/caches/transforms-3/af716c88557fc1f6b9893bf6a34e922a/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.mlkit:vision-common:16.5.0] /Users/aman/.gradle/caches/transforms-3/af716c88557fc1f6b9893bf6a34e922a/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+81            <meta-data
+81-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:20:13-22:85
+82                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+82-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:21:17-120
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:22:17-82
+84        </service>
+85
+86        <uses-library
+86-->[androidx.camera:camera-extensions:1.0.0-alpha28] /Users/aman/.gradle/caches/transforms-3/963d8528c70ec4ca74a98e15a2c259cf/transformed/jetified-camera-extensions-1.0.0-alpha28/AndroidManifest.xml:31:9-33:40
+87            android:name="androidx.camera.extensions.impl"
+87-->[androidx.camera:camera-extensions:1.0.0-alpha28] /Users/aman/.gradle/caches/transforms-3/963d8528c70ec4ca74a98e15a2c259cf/transformed/jetified-camera-extensions-1.0.0-alpha28/AndroidManifest.xml:32:13-59
+88            android:required="false" />
+88-->[androidx.camera:camera-extensions:1.0.0-alpha28] /Users/aman/.gradle/caches/transforms-3/963d8528c70ec4ca74a98e15a2c259cf/transformed/jetified-camera-extensions-1.0.0-alpha28/AndroidManifest.xml:33:13-37
+89
+90        <service
+90-->[androidx.camera:camera-camera2:1.1.0-alpha08] /Users/aman/.gradle/caches/transforms-3/17e1db7d770fcf7d34a52af6c540dae3/transformed/jetified-camera-camera2-1.1.0-alpha08/AndroidManifest.xml:26:9-35:19
+91            android:name="androidx.camera.core.impl.MetadataHolderService"
+91-->[androidx.camera:camera-camera2:1.1.0-alpha08] /Users/aman/.gradle/caches/transforms-3/17e1db7d770fcf7d34a52af6c540dae3/transformed/jetified-camera-camera2-1.1.0-alpha08/AndroidManifest.xml:27:13-75
+92            android:enabled="false"
+92-->[androidx.camera:camera-camera2:1.1.0-alpha08] /Users/aman/.gradle/caches/transforms-3/17e1db7d770fcf7d34a52af6c540dae3/transformed/jetified-camera-camera2-1.1.0-alpha08/AndroidManifest.xml:28:13-36
+93            android:exported="false" >
+93-->[androidx.camera:camera-camera2:1.1.0-alpha08] /Users/aman/.gradle/caches/transforms-3/17e1db7d770fcf7d34a52af6c540dae3/transformed/jetified-camera-camera2-1.1.0-alpha08/AndroidManifest.xml:29:13-37
+94            <meta-data
+94-->[androidx.camera:camera-camera2:1.1.0-alpha08] /Users/aman/.gradle/caches/transforms-3/17e1db7d770fcf7d34a52af6c540dae3/transformed/jetified-camera-camera2-1.1.0-alpha08/AndroidManifest.xml:32:13-34:89
+95                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+95-->[androidx.camera:camera-camera2:1.1.0-alpha08] /Users/aman/.gradle/caches/transforms-3/17e1db7d770fcf7d34a52af6c540dae3/transformed/jetified-camera-camera2-1.1.0-alpha08/AndroidManifest.xml:33:17-103
+96                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+96-->[androidx.camera:camera-camera2:1.1.0-alpha08] /Users/aman/.gradle/caches/transforms-3/17e1db7d770fcf7d34a52af6c540dae3/transformed/jetified-camera-camera2-1.1.0-alpha08/AndroidManifest.xml:34:17-86
+97        </service>
+98
+99        <provider
+99-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:9:9-13:38
+100            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+100-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:10:13-78
+101            android:authorities="com.example.googlelensclone.mlkitinitprovider"
+101-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:11:13-69
+102            android:exported="false"
+102-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:12:13-37
+103            android:initOrder="99" />
+103-->[com.google.mlkit:common:17.3.0] /Users/aman/.gradle/caches/transforms-3/1679ebe4ddfd452ec800f72c9483260d/transformed/jetified-common-17.3.0/AndroidManifest.xml:13:13-35
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:17.6.0] /Users/aman/.gradle/caches/transforms-3/9ae119b5b9d06772e556b1ba7c049c3f/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:23:9-26:75
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:17.6.0] /Users/aman/.gradle/caches/transforms-3/9ae119b5b9d06772e556b1ba7c049c3f/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:24:13-79
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:17.6.0] /Users/aman/.gradle/caches/transforms-3/9ae119b5b9d06772e556b1ba7c049c3f/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:25:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:17.6.0] /Users/aman/.gradle/caches/transforms-3/9ae119b5b9d06772e556b1ba7c049c3f/transformed/jetified-play-services-base-17.6.0/AndroidManifest.xml:26:13-72
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:17.6.0] /Users/aman/.gradle/caches/transforms-3/32b9f112359daf36bd54d952f8908f17/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:23:9-25:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:17.6.0] /Users/aman/.gradle/caches/transforms-3/32b9f112359daf36bd54d952f8908f17/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:24:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:17.6.0] /Users/aman/.gradle/caches/transforms-3/32b9f112359daf36bd54d952f8908f17/transformed/jetified-play-services-basement-17.6.0/AndroidManifest.xml:25:13-66
+113
+114        <service
+114-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+115            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+115-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+116            android:exported="false" >
+116-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+117            <meta-data
+117-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+118                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+118-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+119                android:value="cct" />
+119-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/aman/.gradle/caches/transforms-3/c83f5be63086c964d2cb56d3e6137ba6/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+120        </service>
+121        <service
+121-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/aman/.gradle/caches/transforms-3/4bea69f6d755a334f42245fe3a8716b6/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+122            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+122-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/aman/.gradle/caches/transforms-3/4bea69f6d755a334f42245fe3a8716b6/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+123            android:exported="false"
+123-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/aman/.gradle/caches/transforms-3/4bea69f6d755a334f42245fe3a8716b6/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+124            android:permission="android.permission.BIND_JOB_SERVICE" >
+124-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/aman/.gradle/caches/transforms-3/4bea69f6d755a334f42245fe3a8716b6/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+125        </service>
+126
+127        <receiver
+127-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/aman/.gradle/caches/transforms-3/4bea69f6d755a334f42245fe3a8716b6/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+128            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+128-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/aman/.gradle/caches/transforms-3/4bea69f6d755a334f42245fe3a8716b6/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+129            android:exported="false" />
+129-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/aman/.gradle/caches/transforms-3/4bea69f6d755a334f42245fe3a8716b6/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+130    </application>
+131
+132</manifest>

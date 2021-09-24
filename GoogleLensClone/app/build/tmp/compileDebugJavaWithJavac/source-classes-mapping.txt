@@ -1,0 +1,2 @@
+com/example/googlelensclone/BuildConfig.java
+ com.example.googlelensclone.BuildConfig
